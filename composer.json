@@ -1,0 +1,29 @@
+{
+  "name": "ellipsis/design_pattern",
+  "description": "design pattern with php",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nihaibao",
+      "email": "nihaibao@126.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ellips\\Pat\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ellips\\Pat\\": "tests/"
+    }
+  }
+}
