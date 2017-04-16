@@ -23,7 +23,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Ellips\\Pat\\": "tests/"
+      "Ellips\\Pat\\Test\\": "tests/"
     }
   }
 }
